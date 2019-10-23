@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* mac dinh la 16px */
+}
+
+
+
+#kaido, #luffy{
+    height: 200px;
+    padding: 25px;
+    margin-bottom: 5px;
+
+}
+
+h1{
+    color: black;
+}
+/*----------------------------------*/
+.main-nav{
+    list-style: none;
+    margin-left: 120px;
+    margin-bottom: 50px ;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 150px;
+}
+#radom1, #radom2{
+    height: 100px;
+    width: 100px;
+    background: black;
+    color: white;
+    margin-left: 280px;
+    text-align: center;
+    font-size: 300%;
+}
+
+#hKaido, #hLuffy{
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#hienthi1{
+    display: inline-block;
+}
+#hienthi2{
+    display: inline-block;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+#ketQua{
+    margin: 25px;
+    background: aqua;
+    width: 225px;
+}
